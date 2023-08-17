@@ -1,3 +1,3 @@
 # Reproducción de Página web
-Reproducción de página web de referencia, en este cas https://alcolirykoz.com/.
-TODA LA INFORMACIÓN PERTENECE A DICHA PAGINA (fotos,imagenes e información)
+En este proyecto se reproducción una página web, en este caso se tomo de referencia a https://alcolirykoz.com/.
+¡¡TODA LA INFORMACIÓN PERTENECE A DICHA PAGINA (fotos, imagenes e información)!!
