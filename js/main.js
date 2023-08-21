@@ -2,7 +2,7 @@ let btn, frm, txt;//Variables
 let sound, btn_play, btn_pause;
 
 window.onload = ()=>{
-  
+  animacion();
   sound = new Howl({
     src: ['img/musica.mp3']
   });
@@ -14,6 +14,13 @@ window.onload = ()=>{
   btn.addEventListener("click",enviar);//Acción de presion de botón
    btn_play.addEventListener("click",reproducir);//Acción de presion de botón
   btn_pause.addEventListener("click",pausar);//Acción de presion de botón
+}
+
+function animacion(){
+  var tl = gsap.timeline()
+  tl.from(".menu", {opacity: 0, y: 100, duration: 1.5});
+  tl.from("#banner", {opacity: 0, duration: 2});
+  tl.to("#banner", {opacity: 100, duration: 2});
 }
 
 function enviar(event){
