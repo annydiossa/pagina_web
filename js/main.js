@@ -4,7 +4,7 @@ let sound, btn_play, btn_pause;
 window.onload = ()=>{
   
   sound = new Howl({
-    src: ['https://res.cloudinary.com/da8a3dxxv/video/upload/v1691798536/audio/good-night-160166_n1nciq.mp3']
+    src: ['img/musica.mp3']
   });
 
   btn_play = document.getElementById("btn_play");

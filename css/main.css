@@ -146,6 +146,10 @@ input[type="radio"] {
     cursor: pointer;
 }
 
+.musica img{
+    width: 50px;
+}
+
 .bio h1 img,
 .videos h1 img,
 .discos h1 img,
